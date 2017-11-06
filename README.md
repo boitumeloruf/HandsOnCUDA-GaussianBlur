@@ -1,1 +1,1 @@
-# Hands-On CUDA - Gaussian Filter
+# Hands-On CUDA - Gaussian Blur
