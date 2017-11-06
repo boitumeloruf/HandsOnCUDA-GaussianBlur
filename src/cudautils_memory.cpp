@@ -1,3 +1,7 @@
+////////////////////////////////////////////////////////////////////////////////
+//! Copyright 2017 Boitumelo Ruf. All rights reserved.
+////////////////////////////////////////////////////////////////////////////////
+
 #include "cudautils_memory.h"
 
 // std
@@ -261,4 +265,3 @@ template cudaSurfaceObject_t createSurfaceObject<uchar>(const cv::Size&, cudaArr
 template cudaSurfaceObject_t createSurfaceObject<uint>(const cv::Size&, cudaArray*&);
 template cudaSurfaceObject_t createSurfaceObject<int>(const cv::Size&, cudaArray*&);
 template cudaSurfaceObject_t createSurfaceObject<float>(const cv::Size&, cudaArray*&);
-
